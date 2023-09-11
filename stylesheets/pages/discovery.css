@@ -1,0 +1,161 @@
+/* CSS 작성 */
+/* 오늘의 발견 페이지의 스타일은 모두 /stylesheets/pages/discovery.css에 작성해주세요. */
+
+html,
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* 전체 가운데정렬 */
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  position: relative;
+  left: 11px;
+  margin-top: 100px;
+  margin-bottom: 48px;
+}
+
+.header_h1,
+.header_logo-img {
+  width: 176px;
+  height: 40px;
+}
+
+/**************************** 여기부터 section 영역 *******************/
+#title {
+  position: relative;
+  left: 11px;
+  font-size: var(--title-regular);
+  color: var(--color-black);
+  position: relative;
+  margin-bottom: 24px;
+  text-shadow: 0 2px 5px;
+}
+
+#subtitle,
+#bar {
+  font-size: var(--title-small);
+  color: var(--color-gray-600);
+  position: absolute;
+  top: 6px;
+  left: 125px;
+}
+#subtitle {
+  position: absolute;
+  top: 7px;
+  left: 138px;
+}
+
+/******************************** 여기서부터 product 배치 **************/
+.product-list {
+  height: 310px;
+  width: 100%;
+  height: 1098px;
+  list-style: none;
+  /* border: 5px solid red; */
+  padding: 0;
+}
+
+.banner-list {
+  float: left;
+  width: 281.5px;
+  height: 310px;
+  border: 1px solid var(--color-gray-500);
+  margin: 10px 2px 0 10px;
+  text-align: center;
+  position: relative;
+  box-shadow: 1px 3px 3px 0px rgba(0, 0, 0, 0.2);
+  display: block;
+}
+
+.banner-list img {
+  position: relative;
+  top: 10px;
+  height: 100%;
+}
+
+svg {
+  position: absolute;
+  top: 250px;
+  right: 220px;
+
+  color: var(--color-white);
+  background-color: var(--color-gray-500);
+
+  width: 42px;
+  height: 42px;
+  opacity: 0.4;
+}
+
+#one svg,
+#two svg,
+#seven svg {
+  position: absolute;
+  top: 250px;
+  left: 15px;
+}
+
+#one,
+#two,
+#seven {
+  width: 575px;
+}
+
+/**********마우스가 올라가거나 키보드로 접근 시  */
+.banner-list a[role="tab"] {
+  display: block;
+  text-decoration: none;
+  outline: none;
+}
+
+.banner-list a[role="tab"]::before {
+  content: "";
+  position: absolute;
+  border: 1px solid var(--color-gray-500);
+  transition: all 0.3s ease-in;
+}
+
+.banner-list a[role="tab"]:hover::after,
+.banner-list a[role="tab"]:focus::after {
+  content: " ";
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  border: 1px solid var(--color-blue-500);
+  width: 100%;
+  height: 100%;
+}
+
+/* hover, focus시 구매하기 버튼 */
+/* content:"구매하기" url(/assets/icon/angle-right-square.svg);
+넣으면  가상요소선택자 content 내용중 구매하기 글씨가
+ 내려가는문제 */
+.banner-list a[role="tab"]:hover::before,
+.banner-list a[role="tab"]:focus::before {
+  content: "    구매하기 ";
+  white-space: pre;
+  background-image: url(/assets/icon/angle-right-square.svg);
+  background-repeat: no-repeat;
+  background-position-x: 63px;
+  background-position-y: 0.5px;
+  position: absolute;
+  background-color: var(--color-blue-600);
+
+  color: var(--color-white);
+  font-size: 14px;
+  font-weight: 500;
+  width: 100px;
+  height: 42px;
+  top: 250px;
+  left: 15px;
+  text-align: left;
+  z-index: 10;
+  line-height: 40px;
+  opacity: 1;
+}

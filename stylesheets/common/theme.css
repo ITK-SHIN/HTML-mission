@@ -1,0 +1,54 @@
+/* Theme 스타일 작성 */
+
+/* /stylesheets/common/theme.css 파일에 
+피그마 시안에 등록된 color 시스템을 참고하여 변수로 선언
+(예 --color-blue-600 : #0074E9 ; )하여 사용해주세요. */
+
+:root {
+  /* Color */
+  --color-black: #181818;
+  --color-white: #ffffff;
+
+  --color-red-100: #FAD3D6;
+  --color-red-200: #F5A7AC;
+  --color-red-300: #EF7B83;
+  --color-red-400: #EA4F59;
+  --color-red-500: #E52330;
+  --color-red-600: #B71C26;
+  --color-red-700: #89151D;
+  --color-red-800: #5C0E13;
+  --color-red-900: #2E070A;
+
+  --color-blue-100: #CCEAFA;
+  --color-blue-200: #65CDE3;
+  --color-blue-300: #61BFE6;
+  --color-blue-400: #33ABE9;
+  --color-blue-500: #0096E4;
+  --color-blue-600: #0074E9;
+  --color-blue-700: #005A89;
+  --color-blue-800: #003C5B;
+  --color-blue-900: #001E2E;
+
+  --color-green-100: #F4F5D2;
+  --color-green-200: #E9EBA5;
+  --color-green-300: #DDE177;
+  --color-green-400: #D2D74A;
+  --color-green-500: #C7CD1D;
+  --color-green-600: #9FA417;
+  --color-green-700: #00B599;
+  --color-green-800: #50520C;
+  --color-green-900: #282906;
+
+
+  --color-gray-100: #F3F3F3;
+  --color-gray-200: #E7E7E7;
+  --color-gray-300: #DCDCDC;
+  --color-gray-400: #D0D0D0;
+  --color-gray-500: #C4C4C4;
+  --color-gray-600: #AAA9A9;
+  --color-gray-700: #767676;
+  --color-gray-800: #4E4E4E;
+  --color-gray-900: #272727;
+
+
+}
