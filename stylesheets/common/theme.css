@@ -9,46 +9,43 @@
   --color-black: #181818;
   --color-white: #ffffff;
 
-  --color-red-100: #FAD3D6;
-  --color-red-200: #F5A7AC;
-  --color-red-300: #EF7B83;
-  --color-red-400: #EA4F59;
-  --color-red-500: #E52330;
-  --color-red-600: #B71C26;
-  --color-red-700: #89151D;
-  --color-red-800: #5C0E13;
-  --color-red-900: #2E070A;
+  --color-red-100: #fad3d6;
+  --color-red-200: #f5a7ac;
+  --color-red-300: #ef7b83;
+  --color-red-400: #ea4f59;
+  --color-red-500: #e52330;
+  --color-red-600: #b71c26;
+  --color-red-700: #89151d;
+  --color-red-800: #5c0e13;
+  --color-red-900: #2e070a;
 
-  --color-blue-100: #CCEAFA;
-  --color-blue-200: #65CDE3;
-  --color-blue-300: #61BFE6;
-  --color-blue-400: #33ABE9;
-  --color-blue-500: #0096E4;
-  --color-blue-600: #0074E9;
-  --color-blue-700: #005A89;
-  --color-blue-800: #003C5B;
-  --color-blue-900: #001E2E;
+  --color-blue-100: #cceafa;
+  --color-blue-200: #65cde3;
+  --color-blue-300: #61bfe6;
+  --color-blue-400: #33abe9;
+  --color-blue-500: #0096e4;
+  --color-blue-600: #0074e9;
+  --color-blue-700: #005a89;
+  --color-blue-800: #003c5b;
+  --color-blue-900: #001e2e;
 
-  --color-green-100: #F4F5D2;
-  --color-green-200: #E9EBA5;
-  --color-green-300: #DDE177;
-  --color-green-400: #D2D74A;
-  --color-green-500: #C7CD1D;
-  --color-green-600: #9FA417;
-  --color-green-700: #00B599;
-  --color-green-800: #50520C;
+  --color-green-100: #f4f5d2;
+  --color-green-200: #e9eba5;
+  --color-green-300: #dde177;
+  --color-green-400: #d2d74a;
+  --color-green-500: #c7cd1d;
+  --color-green-600: #9fa417;
+  --color-green-700: #00b599;
+  --color-green-800: #50520c;
   --color-green-900: #282906;
 
-
-  --color-gray-100: #F3F3F3;
-  --color-gray-200: #E7E7E7;
-  --color-gray-300: #DCDCDC;
-  --color-gray-400: #D0D0D0;
-  --color-gray-500: #C4C4C4;
-  --color-gray-600: #AAA9A9;
+  --color-gray-100: #f3f3f3;
+  --color-gray-200: #e7e7e7;
+  --color-gray-300: #dcdcdc;
+  --color-gray-400: #d0d0d0;
+  --color-gray-500: #c4c4c4;
+  --color-gray-600: #aaa9a9;
   --color-gray-700: #767676;
-  --color-gray-800: #4E4E4E;
+  --color-gray-800: #4e4e4e;
   --color-gray-900: #272727;
-
-
 }
